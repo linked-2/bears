@@ -1,0 +1,37 @@
+# General Project related
+.DS_Store
+mdapi-source/
+target/
+temp/
+/deploy/*
+/debug/
+**/dep-dir.txt
+*.prefs
+build.properties
+.execanon
+manifest/
+
+# VS Code IDE Related
+.vscode/
+.history/
+
+# Illuminated Cloud Related
+.idea/
+IlluminatedCloud
+
+# SFDX Related
+.sfdx-prject.json/
+force-app/untracked/*
+!force-app/untracked/README.md
+force-app/ops-nav/main/default
+
+# SFDX SFDMU Plugin Related
+/data/**/logs/
+/data/**/source/
+/data/**/MissingParentRecordsReport.csv
+/data/**/CSVIssuesReport.csv
+
+# NPM Related
+package.json
+/node_modules
+package-lock.json

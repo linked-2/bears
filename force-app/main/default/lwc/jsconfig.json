@@ -1,0 +1,38 @@
+{
+    "compilerOptions": {
+        "experimentalDecorators": true,
+        "baseUrl": ".",
+        "paths": {
+            "c/helloWorldComponent": [
+                "helloWorldComponent/helloWorldComponent.js"
+            ],
+            "c/bearTile": [
+                "bearTile/bearTile.js"
+            ],
+            "c/bearSupervisor": [
+                "bearSupervisor/bearSupervisor.js"
+            ],
+            "c/bearMap": [
+                "bearMap/bearMap.js"
+            ],
+            "c/bearList": [
+                "bearList/bearList.js"
+            ],
+            "c/bearLocation": [
+                "bearLocation/bearLocation.js"
+            ],
+            "c/helloWebComponent": [
+                "helloWebComponent/helloWebComponent.js"
+            ]
+        }
+    },
+    "include": [
+        "**/*",
+        "../../../../.sfdx/typings/lwc/**/*.d.ts"
+    ],
+    "typeAcquisition": {
+        "include": [
+            "jest"
+        ]
+    }
+}
